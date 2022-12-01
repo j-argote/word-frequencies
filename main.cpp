@@ -21,7 +21,7 @@ int main(){
   //output the word followed by the frequency
   for(unsigned i = 0; i < words_list.size(); i++){
     count = 0;
-    for(int j = 0; j < words_list.size(); j++){
+    for(unsigned int j = 0; j < words_list.size(); j++){
       if(words_list.at(i) == words_list.at(j)){
         count++;
       }
